@@ -1,4 +1,3 @@
-# Encriptador
 
 
 <h1>Encriptador Oracle</h1><br>
