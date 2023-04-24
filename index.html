@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Encriptador</title>
+    
+</head>
+<body>
+    <form action="" id="formulario">
+        <img src="img/download.png" alt="Logo de alura" class="logo">
+        <p class="nombre">Mariana Franco Sánchez.</p>  
+        <main class="contenedor" > 
+            
+                    <div class="textAgrega">
+                        <div class="agregar">
+                            <textarea name="agregar" id="agrega-text" cols="30" rows="10" class="input area" placeholder="Agrega texto que deseas encriptar/Desencriptar"></textarea>
+                        </div>
+                         <div class="etiqueta">
+                             <p>Solo letras minúsculas y sin acentos</p>
+                        </div>
+                        <div class="botones-container">
+                            <input type="button" value="Encriptar" id="btn-encripta" class="boton boton-encripta" >
+                            <input type="button" value="Desencriptar" id="btn-desencripta" class="boton boton-desencripta" >
+                        </div>
+                        
+                    </div>
+                    <div class="textMuestra">
+                        <div class="mostrar-texto">
+                            <textarea name="mostrar" id="mostrar-text" class="mostrar area" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="botones-container">
+                            <input type="button" value="Copiar" id="btn-copia" class="boton boton-copia" >
+                        </div>
+                      
+                        <!-- <button type="reset">Limpiar</button> -->
+                    </div>
+                    
+        </main>
+    </form>
+
+    <script src="JavaScript/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
